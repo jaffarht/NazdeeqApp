@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825047664276",
+    "firebase_url": "https://nazdeeqapp.firebaseio.com",
+    "project_id": "nazdeeqapp",
+    "storage_bucket": "nazdeeqapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825047664276:android:a6cf77d1de275525895681",
+        "android_client_info": {
+          "package_name": "com.example.nazdeeqapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825047664276-jtasjkmtpekjci2qgbbm718pognt0rnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nazdeeqapp",
+            "certificate_hash": "fa19afb2a3001956768c086f31e080074694fa66"
+          }
+        },
+        {
+          "client_id": "825047664276-rckhd3su4p1rvq56bb9lrpanm2eeuc5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADbCa4hiMvsHp2d-bvVe9aZRVQVe2ZLgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825047664276-rckhd3su4p1rvq56bb9lrpanm2eeuc5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="@color/gradient2"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/sourcePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_source" />
+
+        <TextView
+            android:id="@+id/chsource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sourcePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="6dp"
+            android:text="Source"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/destinationPic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_destination" />
+
+        <TextView
+            android:id="@+id/chdestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chsource"
+            android:layout_alignLeft="@id/destinationPic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="52dp"
+            android:layout_toEndOf="@+id/destinationPic"
+            android:text="Destination"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/datePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/chDate"
+            android:layout_width="76dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="299dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Date"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            />
+
+        <ImageView
+            android:id="@+id/timePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="167dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_time" />
+
+        <TextView
+            android:id="@+id/chTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="149dp"
+            android:text="Time"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/moneyPic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_money" />
+
+        <TextView
+            android:id="@+id/chPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chTime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="313dp"
+            android:layout_marginTop="-19dp"
+            android:layout_marginBottom="35dp"
+            android:text="Money"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRIVER DETAILS"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="265dp"
+        android:textColor="@color/gradient1"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/driverPic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/driverblue"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/chdrivername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="375dp"
+        android:text="Driver Name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/driverCarPic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/carpink"
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/chdrivercar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="425dp"
+        android:text="Car Name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/carnumberpic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/carnumblue"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/chcarnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="475dp"
+        android:text="Car Number"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+
+</androidx.cardview.widget.CardView>

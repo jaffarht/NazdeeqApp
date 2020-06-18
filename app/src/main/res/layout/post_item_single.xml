@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="@color/gradient5"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/sourcePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_source" />
+
+        <TextView
+            android:id="@+id/dpsource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sourcePic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="6dp"
+            android:text="Source"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/destinationPic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/ic_destination" />
+
+        <TextView
+            android:id="@+id/dpdestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dpsource"
+            android:layout_alignLeft="@id/destinationPic"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="52dp"
+            android:layout_toEndOf="@+id/destinationPic"
+            android:text="Destination"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/datePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_date" />
+
+        <TextView
+            android:id="@+id/dpDate"
+            android:layout_width="84dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="299dp"
+            android:layout_marginBottom="22dp"
+            android:text="Date"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/timePic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_time" />
+
+        <TextView
+            android:id="@+id/dpTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="176dp"
+            android:text="Time"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+        android:id="@+id/seatsPic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_people" />
+
+        <TextView
+            android:id="@+id/dpSeats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dpTime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="-19dp"
+            android:layout_marginBottom="35dp"
+            android:text="Seats"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/moneyPic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/ic_money" />
+
+        <TextView
+            android:id="@+id/dpPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dpTime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="324dp"
+            android:layout_marginTop="-19dp"
+            android:layout_marginBottom="35dp"
+            android:text="Money"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

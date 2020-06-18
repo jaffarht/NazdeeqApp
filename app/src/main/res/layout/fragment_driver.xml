@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signup">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="61dp"
+        app:srcCompat="@drawable/carpic" />
+
+    <EditText
+        android:id="@+id/car_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:background="@color/primaryWhite"
+        android:layout_marginTop="177dp"
+        android:drawableLeft="@drawable/ic_user_outline"
+        android:ellipsize="end"
+        android:hint="   CAR MODEL"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="15dp" />
+
+
+
+
+    <EditText
+        android:id="@+id/car_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:background="@color/primaryWhite"
+        android:drawableLeft="@drawable/ic_user_outline"
+        android:ellipsize="end"
+        android:hint="   CAR NUMBER"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/save_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/signupbtn"
+        android:text="ADD DRIVER DETAILS"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="57dp"
+        app:srcCompat="@drawable/numberplate" />
+
+
+</RelativeLayout>
